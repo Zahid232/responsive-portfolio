@@ -89,13 +89,16 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    /* background: url('images/255.jpg'); */
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    background: var(--second-bg-color);
+}
+
+.imgh{
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3rem;
 }
 
 .slide{
@@ -596,5 +599,10 @@ header.sticky{
 
     .navlist.open{
         top: 100%;
+    }
+
+
+    .imgh{
+        display: none;
     }
 }
