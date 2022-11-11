@@ -16,24 +16,6 @@ window.onscroll=()=>{
     navlist.classList.remove('open');
 }
 
-let userDetails=[]
 
-function chlbsdk(){
-    
-
-    let nAme=document.getElementById("name")
-    userDetails.push(nAme.value)
-
-    let eMail=document.getElementById("email")
-    userDetails.push(eMail.value)
-
-    let nUmber=document.getElementById("number")
-    userDetails.push(nUmber.value)
-
-    let mEsg=document.getElementById("message")
-    userDetails.push(mEsg.value)
-    
-    console.log(userDetails)
-}
 
 
